@@ -83,7 +83,11 @@ body * {
   z-index: 1;
   transform: translateY(-50%);
 
-  animation: slide-back 0.2s;
+  transition: left 0.2s;
+}
+
+.light #switch button {
+  left: 32px;
 }
 
 .light #switch button:hover {
